@@ -1,112 +1,52 @@
-# gentelella
+Welcome to Church Web CRM
+---
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
+[![Documentation Status](https://readthedocs.org/projects/church-web-crm/badge/?version=latest)](https://readthedocs.org/projects/church-web-crm/?badge=latest)
+[![Github All Releases](https://img.shields.io/github/downloads/churchcrm/crm/total.svg)](https://github.com/ChurchCRM/CRM/releases)
 
-Gentelella Admin is a free to use Bootstrap admin template.
-This template uses the default Bootstrap 3 styles along with a variety of powerful jQuery plugins and tools to create a powerful framework for creating admin panels or back-end dashboards.
+### Development 
+[![GitHub contributors](https://img.shields.io/github/contributors/churchcrm/crm.svg)]()
+[![Stories in Ready](https://badge.waffle.io/ChurchCRM/CRM.png?label=in%20Review&title=In+Review)](https://waffle.io/ChurchCRM/CRM)
+[![Join the chat at https://gitter.im/ChurchCRM/CRM](https://badges.gitter.im/ChurchCRM/CRM.svg)](https://gitter.im/ChurchCRM/CRM?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/ChurchCRM/CRM.svg?branch=master)](https://travis-ci.org/ChurchCRM/CRM)
+[![StyleCI](https://styleci.io/repos/30856851/shield?branch=master)](https://styleci.io/repos/30856851)
+[![POEditor](https://img.shields.io/badge/Languages-22-green.svg)](https://poeditor.com/join/project/RABdnDSqAt)
 
-Theme uses several libraries for charts, calendar, form validation, wizard style interface, off-canvas navigation menu, text forms, date range, upload area, form autocomplete, range slider, progress bars, notifications and much more.
 
-We would love to see how you use this awesome admin template. You can notify us about your site, app or service by tweeting to [@colorlib](https://twitter.com/colorlib). Once the list will grown long enough we will write a post similar to [this](https://colorlib.com/wp/avada-theme-examples/) to showcase the best examples.
+### Docker
+![](https://img.shields.io/docker/pulls/churchcrm/crm.svg?maxAge=2592000)
+[![](https://images.microbadger.com/badges/image/churchcrm/crm.svg)](https://microbadger.com/images/churchcrm/crm "Get your own image badge on microbadger.com")
+## Website
 
+[http://churchcrm.io](http://churchcrm.io)
 
-## Theme Demo
-![Gentelella Bootstrap Admin Template](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/gentelella-admin-template-preview.jpg "Gentelella Theme Browser Preview")
+## Installation, Upgrades and Documentation
 
-**[Template Demo](https://colorlib.com/polygon/gentelella/index.html)**
+* [Server Check](https://github.com/ChurchCRM/Check)
 
-## Installation via Package Manger
+* [Download the lastest release](https://github.com/ChurchCRM/CRM/releases/latest)
 
-Our goal is to make it installable on different Package Manager! Do you want to use it on your favorite Package Manager and you know how? Pull request all the way! 
+* [Checkout our online Docs](http://docs.churchcrm.io)
 
-As of now, this is some installation available:
+## Project Metrics 
 
-**Bower**
+[![Throughput Graph](https://graphs.waffle.io/ChurchCRM/CRM/throughput.svg)](https://waffle.io/ChurchCRM/CRM/metrics/throughput)
 
-```
-bower install gentelella --save
-```
+see [Download Stats](http://www.somsubhra.com/github-release-stats/?username=churchcrm&repository=CRM)
 
-**npm**
+##  Change Log
 
-```
-npm install gentelella --save
-```
-## How to contribute
-To contribute, please ensure that you have stable [Node.js](https://nodejs.org/) and [npm](https://npmjs.com) installed.
+see [Checkout our Change Log](CHANGELOG.md)
 
-Test if Gulp CLI is installed by running `gulp --version`.  If the command isn't found, run `npm install -g gulp`.  For more information about installing Gulp, see the Gulp's [Getting Started](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md).
+### Demo Account
 
-To have all gulp dependencies run ```npm install```
+To test out the demo, you may login to the http://demo.churchcrm.io  with the following:
 
-If `gulp` is installed, follow the steps below.
+- **Username:** admin
+- **Password:** changeme
 
-1. Fork and clone the repo.
-2. Run `gulp`, this will open gentelella on your default browser
-3. Now you can code, code and code!
-4. Submit a pull request
+## New UI
 
-## Gentelella for other platforms and frameworks
-
-* [Gentelella on Ruby on Rails 4](https://github.com/iogbole/gentelella_on_rails) thanks to Israel Ogbole.
-* [Gentelella on Rails 5.x](https://github.com/mwlang/gentelella-rails) thanks to Michael Lang
-* [Gentelella on Smarty 3](https://github.com/microvb/otp-thing) with one time password generator, validator, and QR code generator that has no web dependencies (self-contained) in PHP thanks to MicroVB INC
-* [Gentelella integrated into Symfony 3](https://github.com/krzysiekpiasecki/Gentelella) full stack PHP framework thanks to Krzysztof Piasecki.
-* [Gentelella on Yii framework 2](https://github.com/yiister/yii2-gentelella) with an asset bundle, a layout template and some widgets.
-* [Gentelella on Angular 2](https://github.com/kmkatsma/angular2-webpack-starter-gentelella) Angular Webpack Starter modified to utilize the Gentelella.
-* [Gentelella on Aurelia](https://github.com/kmkatsma/aurelia-gentelella) Typescript webpack skeleton modified to utilize the Gentelella.
-* [Gentelella on Laravel](https://github.com/Labs64/laravel-boilerplate) PHP / Laravel 5 boilerplate project with Gentelella Admin theme support.
-* [Gentelella on Django](https://github.com/GiriB/django-gentelella) Genetellela modified to fit as a Django app
-* [Gentelella on CakePHP 3](https://github.com/backstageel/cakephp-gentelella-theme) Gentelella modified to work on CakePHP
-
-Let us know if you have done integration for this admin template on other platforms and frameworks and we'll be happy to share your work.
-
-## Scripts included:
-* Bootstrap
-* Font Awesome
-* jQuery-Autocomplete
-* FullCalendar
-* Charts.js
-* Bootstrap Colorpicker
-* Cropper
-* dataTables
-* Date Range Picker for Bootstrap
-* Dropzone
-* easyPieChart
-* ECharts
-* bootstrap-wysiwyg
-* Flot - Javascript plotting library for jQuery.
-* gauge.js
-* iCheck
-* jquery.inputmask plugin
-* Ion.RangeSlider
-* jQuery
-* jVectorMap
-* moment.js
-* Morris.js - pretty time-series line graphs
-* PNotify - Awesome JavaScript notifications
-* NProgress
-* Pace
-* Parsley
-* bootstrap-progressbar
-* select2
-* Sidebar Transitions - simple off-canvas navigations
-* Skycons - canvas based wather icons
-* jQuery Sparklines plugin
-* switchery - Turns HTML checkbox inputs into beautiful iOS style switches
-* jQuery Tags Input Plugin
-* Autosize - resizes text area to fit text
-* validator - HTML from validator using jQuery
-* jQuery Smart Wizard
-
-## Other templates and useful resources
-* [Free Bootstrap Admin Templates](https://colorlib.com/wp/free-bootstrap-admin-dashboard-templates/ "Bootstrap Admin Templates on Colorlib") - List of the best Free Bootstrap admin dashboard templates that are available for free for personal and commercial use.
-* [Free Admin Templates](https://colorlib.com/wp/free-html5-admin-dashboard-templates/ "List of free HTML based admin templates by Colorlib") - Long list of the best free HTML5 powered admin dashboard templates. Available for personal and commercial use.
-* [Angular Templates](https://colorlib.com/wp/angularjs-admin-templates/ "Angular Admin Templates on Colorlib") - List of the most popular admin templates based on AngularJS.
-* [HTML Admin Templates](https://colorlib.com/wp/html-admin-templates/ "Material Design Admin Templates on Colorlib") - Most of these templates are based on AngularJS and uses a stunning Material design.
-* [Bootstrap Admin Templates](https://colorlib.com/wp/bootstrap-admin-templates/ "List of Premium Bootstrap Admin Templates by Colorlib") - List of premium Bootstrap admin templates that uses a minimal flat or material design. Majority of these themes uses AngularJS but HTML5 versions are also available.
-* [WordPress Admin Templates](https://colorlib.com/wp/wordpress-admin-dashboard-themes-plugins/ "List of WordPress Admin Dashboard Templates and Plugins by Colorlib") - List of the best WordPress admin dashboard templates and plugins that will add a personal touch to your WordPress dashboard.
-* [WordPress Themes](https://colorlib.com/wp/free-wordpress-themes/ "List of Free WordPress themes by Colorlib") - A huge selection of the best free WordPress themes that are all licensed under GPL and are available for personal and commercial use without restrictions.
-
-## License information
-Gentelella is licensed under The MIT License (MIT). Which means that you can use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software. But you always need to state that Colorlib is the original author of this template.
-
-Project is developed and maintained by [Colorlib](https://colorlib.com/ "Colorlib - Make Your First Blog") and Aigars Silkalns
+![Menu](http://www.churchcrm.io/screenshots/menu.PNG)
+![Family](http://www.churchcrm.io/screenshots/family.PNG)
+![Person](http://www.churchcrm.io/screenshots/person.PNG)
